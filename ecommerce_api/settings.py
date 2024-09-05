@@ -139,3 +139,6 @@ REST_FRAMEWORK = {
         "rest_framework_simplejwt.authentication.JWTAuthentication",
     ),
 }
+
+STRIPE_SECRET_KEY = config['STRIPE_TEST_SECRET_KEY']
+DOMAIN = config['DOMAIN']
